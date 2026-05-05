@@ -7,6 +7,8 @@
 
 - Ziteng Feng, Haoran Jiang, Puhua Chen, Licheng Jiao, Fang Liu. Enhancing Detection Transformers with MultiModal Compensation.
 
+- Yidong Wang, Yan Zhan, Ziteng Feng, Zhenyu Cui, Ziyi Zhou, Renzhao Liang, Jiaxuan Zhu, Zilei Yang, Yiran Zhao, Zhongkuan Mao, Bo Jia, Hanchu Ni, Chenggang Xie, Biao Liu, Qiufeng Wang, Yi Zhang, Yong Dai. TrustRoboReward: Consistency-Aware Reward Editing for Multi-Paradigm Robotic Reward Models
+
 
 #### Accepted
 

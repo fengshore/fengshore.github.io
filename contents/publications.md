@@ -9,6 +9,7 @@
 
 - Yidong Wang, Yan Zhan, Ziteng Feng, Zhenyu Cui, Ziyi Zhou, Renzhao Liang, Jiaxuan Zhu, Zilei Yang, Yiran Zhao, Zhongkuan Mao, Bo Jia, Hanchu Ni, Chenggang Xie, Biao Liu, Qiufeng Wang, Yi Zhang, Yong Dai. TrustRoboReward: Consistency-Aware Reward Editing for Multi-Paradigm Robotic Reward Models
 
+- <strong>Jiaming Wang</strong>&ast, <strong>Ziteng Feng</strong>&ast, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu. Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories
 
 #### Accepted
 

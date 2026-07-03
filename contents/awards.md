@@ -1,3 +1,3 @@
-- 西安电子科技大学2026届优秀毕业生
-- 2023年全国大学生数学建模竞赛省一等奖
-- 2025年西安电子科技大学一等奖学金
+- Outstanding Graduate of the Class of 2026, Xidian University
+- Provincial First Prize, 2023 China Undergraduate Mathematical Contest in Modeling
+- First-Class Scholarship, Xidian University, 2025

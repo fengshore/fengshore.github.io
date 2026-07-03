@@ -78,84 +78,131 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
+    <div class="site-page">
+        <a class="github-corner" href="https://github.com/fengshore" target="_blank" rel="noreferrer"
+            aria-label="View GitHub profile">
+            <i class="bi bi-github"></i>
+        </a>
 
-                </ul>
+        <nav class="site-nav" id="mainNav">
+            <a id="page-top-title" class="site-brand" href="#page-top"></a>
+            <div class="site-links" id="navbarResponsive">
+                <a class="nav-link" href="#home">About</a>
+                <a class="nav-link" href="#news">News</a>
+                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#publications">Publications</a>
+                <a class="nav-link" href="#awards">Awards</a>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
-        </div>
-    </section>
-    <!-- Top Section -->
+        <main class="site-shell">
+            <section class="profile-hero" aria-labelledby="profile-name">
+                <div class="profile-copy">
+                    <p class="profile-kicker">Academic Homepage</p>
+                    <h1 id="profile-name">Ziteng Feng <span>冯子腾</span></h1>
+                    <p class="profile-role">Incoming M.E. Student in Artificial Intelligence, University of Science and Technology of China</p>
+                    <p class="profile-line">Research intern at Tencent YouTu Lab. Interested in computer vision, agent memory, and DeepResearch agents.</p>
+                    <div class="profile-actions" aria-label="Profile links">
+                        <a href="mailto:fengziteng433@gmail.com"><i class="bi bi-envelope"></i>Email</a>
+                        <a href="https://github.com/fengshore" target="_blank" rel="noreferrer"><i class="bi bi-github"></i>GitHub</a>
+                        <span aria-disabled="true"><i class="bi bi-mortarboard"></i>Scholar TODO</span>
+                        <span aria-disabled="true"><i class="bi bi-file-earmark-text"></i>CV TODO</span>
+                    </div>
+                </div>
+                <figure class="portrait-panel">
+                    <img src="static/assets/img/photo.png" alt="Portrait of Ziteng Feng">
+                </figure>
+            </section>
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
+            <section class="content-section" id="home">
+                <header class="section-heading">
+                    <p class="section-kicker">About</p>
+                    <h2 id="home-subtitle">Biography</h2>
+                </header>
+                <div class="main-body" id="home-md"></div>
+            </section>
+
+            <section class="content-section" id="news">
+                <header class="section-heading">
+                    <p class="section-kicker">Updates</p>
+                    <h2>News</h2>
+                </header>
+                <div class="main-body compact-list" id="news-md"></div>
+            </section>
+
+            <section class="content-section two-column-section" id="education">
+                <header class="section-heading">
+                    <p class="section-kicker">Training</p>
+                    <h2>Education</h2>
+                </header>
+                <div class="timeline-list">
+                    <article class="timeline-row">
+                        <p class="timeline-date">2026 - 2029</p>
+                        <div>
+                            <h3>University of Science and Technology of China</h3>
+                            <p>M.E. in Artificial Intelligence. Department of Automation.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-row">
+                        <p class="timeline-date">2022 - 2026</p>
+                        <div>
+                            <h3>Xidian University</h3>
+                            <p>B.E. in Computer Science and Technology.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section two-column-section" id="experience">
+                <header class="section-heading">
+                    <p class="section-kicker">Research</p>
+                    <h2>Experience</h2>
+                </header>
+                <div class="timeline-list">
+                    <article class="timeline-row">
+                        <p class="timeline-date">Current</p>
+                        <div>
+                            <h3>Tencent YouTu Lab</h3>
+                            <p>Research Intern. TODO: add team, mentor, and project details.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-row is-placeholder">
+                        <p class="timeline-date">TODO</p>
+                        <div>
+                            <h3>Research Experience Placeholder</h3>
+                            <p>Add previous internships, advisors, lab affiliations, or selected projects here.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section" id="publications">
+                <header class="section-heading">
+                    <p class="section-kicker">Selected Work</p>
+                    <h2 id="publications-subtitle">Publications</h2>
+                </header>
+                <div class="main-body publication-list" id="publications-md"></div>
+            </section>
+
+            <section class="content-section" id="awards">
+                <header class="section-heading">
+                    <p class="section-kicker">Recognition</p>
+                    <h2>Awards</h2>
+                </header>
+                <div class="main-body compact-list" id="awards-md"></div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <span id="copyright-text">Copyright &copy; Ziteng Feng</span>
+            <span class="footer-divider">/</span>
+            <a id="github-link" href="https://github.com/fengshore" target="_blank" rel="noreferrer">GitHub</a>
+            <span class="footer-divider">/</span>
+            <a id="license-link" href="https://github.com/fengshore/fengshore.github.io/blob/main/LICENSE" target="_blank"
+                rel="noreferrer">License</a>
+        </footer>
     </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
-            </div>
-        </div>
-    </footer>
-
 </body>
 
 </html>

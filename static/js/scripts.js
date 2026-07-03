@@ -2,7 +2,32 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'publications']
+const section_names = ['home', 'news', 'publications', 'awards']
+
+function enhancePublications(container) {
+    const items = Array.from(container.querySelectorAll('li'));
+    items.forEach((item, index) => {
+        item.classList.add('publication-item');
+
+        const cover = document.createElement('div');
+        cover.className = 'publication-cover';
+        cover.innerHTML = `<span>${String(index + 1).padStart(2, '0')}</span>`;
+        item.prepend(cover);
+
+        const body = document.createElement('div');
+        body.className = 'publication-body';
+        while (item.childNodes.length > 1) {
+            body.appendChild(item.childNodes[1]);
+        }
+        item.appendChild(body);
+    });
+}
+
+function enhanceNews(container) {
+    Array.from(container.querySelectorAll('li')).forEach(item => {
+        item.classList.add('news-item');
+    });
+}
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -23,7 +48,7 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            if (navbarToggler && window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
             }
         });
@@ -54,10 +79,19 @@ window.addEventListener('DOMContentLoaded', event => {
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
+                const container = document.getElementById(name + '-md');
+                container.innerHTML = html;
+                if (name === 'publications') {
+                    enhancePublications(container);
+                }
+                if (name === 'news') {
+                    enhanceNews(container);
+                }
             }).then(() => {
                 // MathJax
-                MathJax.typeset();
+                if (window.MathJax && MathJax.typeset) {
+                    MathJax.typeset();
+                }
             })
             .catch(error => console.log(error));
     })

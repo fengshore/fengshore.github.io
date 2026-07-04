@@ -86,7 +86,12 @@ a:hover {
     white-space: nowrap;
 }
 
+.site-brand:empty {
+    display: none;
+}
+
 .site-links {
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -196,9 +201,9 @@ a:hover {
 .portrait-panel img {
     display: block;
     width: 100%;
-    aspect-ratio: 1 / 1.2;
+    aspect-ratio: 978 / 944;
     object-fit: cover;
-    object-position: center top;
+    object-position: center;
     border-radius: 10px;
     box-shadow: 4px 4px 12px rgba(75, 62, 84, 0.4);
 }

@@ -1,3 +1,4 @@
-- [2026] TODO: Add the latest research or paper update.
-- [2026] Will enroll in the Department of Automation at the University of Science and Technology of China.
-- [2026] Working as a research intern at Tencent YouTu Lab.
+- [2026.9] Will enroll in the Department of Automation at the University of Science and Technology of China.
+- [2026.5] One paper was submitted to EMNLP 2026.
+- [2026.5] Two papers were submitted to NeurIPS 2026.
+- [2025.10] Started a research internship with Tencent YouTu Lab.

@@ -336,6 +336,33 @@ section header h2 {
     font-size: 1.03rem;
 }
 
+.experience-title {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.experience-logo {
+    display: inline-grid;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 30px;
+    place-items: center;
+    color: #ffffff;
+    border-radius: 8px;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(55, 36, 76, 0.16);
+}
+
+.logo-youtu {
+    background: linear-gradient(135deg, #3867d6, #6b4f8a);
+}
+
+.logo-link {
+    background: linear-gradient(135deg, #6b4f8a, #8b45b0);
+}
+
 .timeline-row p {
     margin: 0;
     color: var(--ink-muted);

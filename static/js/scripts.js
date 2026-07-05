@@ -3,6 +3,18 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'news', 'publications', 'awards']
+const publication_images = [
+    { pattern: /InduceKV/i, src: 'static/assets/img/InduceKV.png', alt: 'InduceKV preview' },
+    { pattern: /MultiModal Compensation|Detection Transformers/i, src: 'static/assets/img/MM_DETR.png', alt: 'MM-DETR preview' },
+    { pattern: /TrustRoboReward/i, src: 'static/assets/img/trustreboreward.png', alt: 'TrustRoboReward preview' },
+    { pattern: /Deep-Research Agents|Span-Level Error Localization/i, src: 'static/assets/img/DRIFT.png', alt: 'DRIFT preview' },
+    { pattern: /Memoria-Bench/i, src: 'static/assets/img/Memoria.png', alt: 'Memoria-Bench preview' },
+    { pattern: /Remote Sensing Image Captioning|JSTARS/i, src: 'static/assets/img/JSTAR.png', alt: 'Remote sensing captioning preview' },
+]
+
+function getPublicationImage(text) {
+    return publication_images.find(image => image.pattern.test(text));
+}
 
 function enhancePublications(container) {
     const items = Array.from(container.querySelectorAll('li'));
@@ -11,7 +23,12 @@ function enhancePublications(container) {
 
         const cover = document.createElement('div');
         cover.className = 'publication-cover';
-        cover.innerHTML = `<span>${String(index + 1).padStart(2, '0')}</span>`;
+        const image = getPublicationImage(item.textContent);
+        if (image) {
+            cover.innerHTML = `<img src="${image.src}" alt="${image.alt}">`;
+        } else {
+            cover.innerHTML = `<span>${String(index + 1).padStart(2, '0')}</span>`;
+        }
         item.prepend(cover);
 
         const body = document.createElement('div');

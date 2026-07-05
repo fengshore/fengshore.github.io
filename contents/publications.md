@@ -3,7 +3,7 @@
 
 > Note: &ast; indicates equal contribution.
 
-- Qianyu Chen, Ziteng Feng, Canran Xiao, Runxuan Tang. Bilevel Inducing-Set Selection for Retrieval-Based Continual Adaptation of Multimodal Large Language Models. 
+- Qianyu Chen, Ziteng Feng, Canran Xiao, Runxuan Tang. InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories
 
 - Ziteng Feng, Haoran Jiang, Puhua Chen, Licheng Jiao, Fang Liu. Enhancing Detection Transformers with MultiModal Compensation.
 

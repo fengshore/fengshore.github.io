@@ -336,12 +336,14 @@ section header h2 {
     font-size: 1.03rem;
 }
 
+.institution-title,
 .experience-title {
     display: flex;
     align-items: center;
     gap: 9px;
 }
 
+.institution-logo,
 .experience-logo {
     display: inline-grid;
     width: 34px;
@@ -355,6 +357,7 @@ section header h2 {
     box-shadow: 0 4px 12px rgba(55, 36, 76, 0.16);
 }
 
+.institution-logo img,
 .experience-logo img {
     display: block;
     width: 100%;

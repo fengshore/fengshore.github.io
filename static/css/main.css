@@ -473,6 +473,8 @@ section header h2 {
 
 .publication-body a {
     display: inline-flex;
+    align-items: center;
+    gap: 5px;
     margin-top: 8px;
     margin-right: 6px;
     padding: 3px 8px;
@@ -488,6 +490,19 @@ section header h2 {
 .publication-body a:hover {
     background: #eadff4;
     border-bottom: 1px solid var(--accent-line);
+}
+
+.hf-icon {
+    display: inline-grid;
+    width: 18px;
+    height: 18px;
+    place-items: center;
+    color: #7a4a00;
+    background: #ffd66b;
+    border-radius: 5px;
+    font-size: 0.58rem;
+    font-weight: 900;
+    line-height: 1;
 }
 
 .site-footer {

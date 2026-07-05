@@ -3,13 +3,13 @@
 
 > Note: &ast; indicates equal contribution.
 
-- Qianyu Chen, Ziteng Feng, Canran Xiao, Runxuan Tang. InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories
+- Qianyu Chen, Ziteng Feng, Canran Xiao, Runxuan Tang. InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories [<i class="bi bi-file-earmark-pdf"></i> arXiv](https://arxiv.org/pdf/2607.02010)
 
 - Ziteng Feng, Haoran Jiang, Puhua Chen, Licheng Jiao, Fang Liu. Enhancing Detection Transformers with MultiModal Compensation.
 
 - Yidong Wang, Yan Zhan, Ziteng Feng, Zhenyu Cui, Ziyi Zhou, Renzhao Liang, Jiaxuan Zhu, Zilei Yang, Yiran Zhao, Zhongkuan Mao, Bo Jia, Hanchu Ni, Chenggang Xie, Biao Liu, Qiufeng Wang, Yi Zhang, Yong Dai. TrustRoboReward: Consistency-Aware Reward Editing for Multi-Paradigm Robotic Reward Models
 
-- <strong>Jiaming Wang</strong>&ast;, <strong>Ziteng Feng</strong>&ast;, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu. Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories
+- <strong>Jiaming Wang</strong>&ast;, <strong>Ziteng Feng</strong>&ast;, Jiangtao Wu, Ruihao Li, Qianqian Xie, Yuxiang Ren, He Zhu, Xueming Han, Fanyu Meng, Junlan Feng, Jiaheng Liu. Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories [<i class="bi bi-file-earmark-pdf"></i> arXiv](https://arxiv.org/abs/2606.02060) [<i class="bi bi-github"></i> GitHub](https://github.com/NJU-LINK/DRIFT) [<span class="hf-icon">HF</span> Data](https://huggingface.co/datasets/NJU-LINK/TELBench)
 
 #### Accepted
 

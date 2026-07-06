@@ -16,6 +16,20 @@ function getPublicationImage(text) {
     return publication_images.find(image => image.pattern.test(text));
 }
 
+function separatePublicationLinks(body) {
+    const links = Array.from(body.querySelectorAll('a'));
+    if (links.length === 0) {
+        return;
+    }
+
+    const linkRow = document.createElement('div');
+    linkRow.className = 'publication-links';
+    links.forEach(link => {
+        linkRow.appendChild(link);
+    });
+    body.appendChild(linkRow);
+}
+
 function enhancePublications(container) {
     const items = Array.from(container.querySelectorAll('li'));
     items.forEach((item, index) => {
@@ -36,6 +50,7 @@ function enhancePublications(container) {
         while (item.childNodes.length > 1) {
             body.appendChild(item.childNodes[1]);
         }
+        separatePublicationLinks(body);
         item.appendChild(body);
     });
 }

@@ -3,7 +3,7 @@
 
 > Note: &ast; indicates equal contribution.
 
-- Jiayi Tian, Shiao Liu, Yuting Xu, Jia Lu, Zihao Guan, Honglin Han, Di Yang, Minqi Gu, Yifei Qian, Tianlin Zhang, Yanqing Zhu, Zeqian Ye, Menglin Yang, Fei Wang, Xu Hu, Xiuxian Li, Wei Zhang, Shihui Su, Yiyan Ji, Jingbo Wang, <strong>Ziteng Feng</strong>, Jiaheng Liu, Zhaoxiang Zhang, Xiaolong Wu, Mingyang Yin, Zedong Chu, Mu Xu. ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory [<i class="bi bi-file-earmark-pdf"></i> arXiv](https://arxiv.org/pdf/2607.10350)
+- Jiayi Tian, Shiao Liu, Yuting Xu, Jia Lu, Zihao Guan, Honglin Han, Di Yang, Minqi Gu, Yifei Qian, Tianlin Zhang, Yanqing Zhu, Zeqian Ye, Menglin Yang, Fei Wang, Xu Hu, Xiuxian Li, Wei Zhang, Shihui Su, Yiyan Ji, Jingbo Wang, <strong>Ziteng Feng</strong>, Jiaheng Liu, Zhaoxiang Zhang, Xiaolong Wu, Mingyang Yin, Zedong Chu, Mu Xu. ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory <span class="publication-note">Technical report</span> [<i class="bi bi-file-earmark-pdf"></i> arXiv](https://arxiv.org/pdf/2607.10350) [<i class="bi bi-github"></i> GitHub](https://github.com/amap-cvlab/ABot-AgentOS)
 
 - Qianyu Chen, Ziteng Feng, Canran Xiao, Runxuan Tang. InduceKV: Fixed-Footprint Continual Adaptation of Multimodal LLMs via Inducing KV Memories [<i class="bi bi-file-earmark-pdf"></i> arXiv](https://arxiv.org/pdf/2607.02010)
 

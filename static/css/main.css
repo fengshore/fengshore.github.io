@@ -471,6 +471,14 @@ section header h2 {
     display: none;
 }
 
+.publication-note {
+    display: block;
+    margin-top: 8px;
+    color: var(--ink-muted);
+    font-family: var(--font-sans);
+    font-size: 0.86rem;
+}
+
 .publication-links {
     display: flex;
     flex-wrap: wrap;

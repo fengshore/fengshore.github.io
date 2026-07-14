@@ -4,6 +4,7 @@ const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'news', 'publications', 'awards']
 const publication_images = [
+    { pattern: /ABot-AgentOS/i, src: 'static/assets/img/ABot-AgentOS.png', alt: 'ABot-AgentOS preview' },
     { pattern: /InduceKV/i, src: 'static/assets/img/InduceKV.png', alt: 'InduceKV preview' },
     { pattern: /MultiModal Compensation|Detection Transformers/i, src: 'static/assets/img/MM_DETR.png', alt: 'MM-DETR preview' },
     { pattern: /TrustRoboReward/i, src: 'static/assets/img/trustreboreward.png', alt: 'TrustRoboReward preview' },
